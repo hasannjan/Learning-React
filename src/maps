@@ -1,0 +1,33 @@
+const cname = ["Pakistan","UAE","UK","USA", , ]
+  const code = ["+92", " 971", , "44", " 1" ]
+  const num = ["3128779060", "3052013106", "3452151273", "3051613630"]
+  const name = ["Hasan", "Nadir",  "Usama", "Umair"]
+
+<div className="box">{cname.map(item => {
+      return (
+        <div>
+          {item}
+        </div>
+      )
+    })}</div>
+    <div className="box">{code.map(item => {
+      return (
+        <div>
+          {item}
+        </div>
+      )
+    })}</div>
+    <div className="box">{num.map(item => {
+      return (
+        <div>
+          {item}
+        </div>
+      )
+    })}</div>
+    <div className="box">{name.map(item => {
+      return (
+        <div>
+          {item}
+        </div>
+      )
+    })}</div>
