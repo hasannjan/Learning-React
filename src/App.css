@@ -1,8 +1,39 @@
- .arrays{
-    
+.todo-list{
+   border: 1px solid;
+   margin: auto;
+   width: 50%;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
 }
 
-.box{
-   padding: 10px;
-  
-} 
+.todo-item{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 30px 20px 0;
+   width: 70%;
+   border: 1px solid;
+}
+body{
+   background-color: crimson;
+}
+
+form {
+   background-color:black;
+   color: whitesmoke;
+   border: 1px solid;
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 1%;
+   padding: 20px;
+}
+
+
+button,select{
+   padding: 5px 10px;
+   font-weight: 600;
+   border-radius: 2px;
+   border: 2px solid black;
+}
